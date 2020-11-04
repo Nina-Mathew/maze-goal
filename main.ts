@@ -1,6 +1,6 @@
 // Created by: Nina Mathew
 // Created on 11/3/2020
-// Shows the number of times a goal is made.
+// Shows the number of times a goal is made into the hole.
 let goal = 0
 let score = 0
 basic.showNumber(score)
