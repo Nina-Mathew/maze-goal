@@ -1,10 +1,16 @@
-// Created on 11/1/20
-// Created by: Nina Mathew
-// Shows how many goals are made.
+/**
+ * Shows how many goals are made.
+ */
+/**
+ * Created by: Nina Mathew
+ */
 let goal = 0
 let score = 0
 basic.showNumber(score)
 basic.pause(100)
+/**
+ * Created on 11/1/20
+ */
 basic.forever(function () {
     goal = pins.digitalReadPin(DigitalPin.P0)
     if (goal == 1) {
